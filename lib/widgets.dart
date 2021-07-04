@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jee/constant.dart';
 
-
 class SubjectsContainer extends StatelessWidget {
   SubjectsContainer({@required this.sub, @required this.clr});
   final String sub;
@@ -9,13 +8,17 @@ class SubjectsContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // height: 80.0,
+      decoration:
+          // color: clr,
+          BoxDecoration(
+              color: clr,
+              borderRadius: BorderRadius.all(Radius.circular(25.0))),
+      height: 80.0,
       width: 190.0,
-      color: clr,
       child: Center(
         child: Text(
           sub,
-          // style: kSubStyle,
+          style: kSubStyle,
         ),
       ),
     );
