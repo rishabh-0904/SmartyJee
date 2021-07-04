@@ -1,4 +1,4 @@
-# SMARTYJEEg
+# SMARTYJEE
 
 A new Flutter project.
 
